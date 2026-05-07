@@ -113,7 +113,7 @@ export default function Hero() {
                       transition: "all 1s ease",
                     }}
                   >
-                    Psicoterapeuta
+                    Psicóloga Clínica
                   </span>
                 </div>
               </h1>
@@ -127,8 +127,8 @@ export default function Hero() {
                   ...reveal(3, 0.4)
                 }}
               >
-                Cuidado emocional na clínica,<br />
-                oncologia e no trabalho.
+                Cuidado emocional e<br />
+                acolhimento.
               </p>
 
               <p

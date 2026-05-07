@@ -20,7 +20,7 @@ const faqs = [
   {
     pergunta: 'Como é realizado o pagamento?',
     resposta:
-      'Através de transferência bancária ou Pix. Em caso de transferência internacional, os dados específicos serão enviados para que a transação seja realizada corretamente. O pagamento deve ser feito de forma antecipada e pode ser por sessão ou mensalmente, conforme acordado. O valor acompanha o mercado, a formação profissional e a tabela de sugestão do Conselho de Psicologia.',
+      'Através de transferência bancária ou Pix. Em caso de transferência internacional, os dados específicos serão enviados para que a transação seja realizada corretamente. O pagamento deve ser feito de forma antecipada e pode ser por sessão ou mensalmente, conforme acordado.',
   },
   {
     pergunta: 'Como funcionam faltas e cancelamentos?',

@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
         transition: "opacity 1s ease, transform 1s ease",
       }}
     >
-      Psicoterapeuta
+      Psicóloga Clínica
     </span>
               </div>
             </div>

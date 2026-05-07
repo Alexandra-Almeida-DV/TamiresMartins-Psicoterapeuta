@@ -7,24 +7,27 @@ import MeuTrabalho from './components/MeuTrabalho';
 import FAQ from './components/FAQ';
 import Contato from './components/Contato';
 import Footer from './components/Footer'
+import imgPost1 from './assets/id1.png';
+import imgPost2 from './assets/id2.png';
+import imgPost3 from './assets/id3.png';
 
 const instagramPosts = [
   {
     id: 1,
     url: "https://www.instagram.com/p/DTd1m_cDqrN/", 
-    imagem: "src/assets/id1.png", 
+    imagem: imgPost1, 
     legenda: "Janeiro branco."
   },
   {
     id: 2,
     url: "https://www.instagram.com/p/DEnkf4ERqTK/",
-    imagem: "src/assets/id2.png",
+    imagem: imgPost2,
     legenda: "Saúde mental."
   },
   {
     id: 3,
     url: "https://www.instagram.com/p/DLi47XtOyR0/?img_index=1",
-    imagem: "src/assets/id3.png",
+    imagem: imgPost3, 
     legenda: "Acolhimento."
   }
 ];

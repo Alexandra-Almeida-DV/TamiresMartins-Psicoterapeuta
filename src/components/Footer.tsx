@@ -4,7 +4,6 @@ import logo from '../assets/logo.png';
 const Footer: React.FC = () => {
   const [step, setStep] = useState(0);
 
-  // Reutilizando a lógica de animação da Navbar para a logo no footer
   useEffect(() => {
     const timers = [
       setTimeout(() => setStep(1), 300),
@@ -18,8 +17,6 @@ const Footer: React.FC = () => {
   return (
     <footer className="py-5 bg-white border-t border-brand-dark/5">
       <div className="max-w-7xl mx-auto px-6 flex flex-col items-center">
-        
-        {/* ── Logo Composta (Imagem + Texto Animado) ── */}
         <div className="flex flex-col items-center mb-12">
           <div className="flex items-center gap-4 mb-4">
             <img
@@ -81,14 +78,13 @@ const Footer: React.FC = () => {
                     transition: "opacity 1s ease, transform 1s ease",
                   }}
                 >
-                  Psicoterapeuta
+                  Psicóloga Clínica
                 </span>
               </div>
             </div>
           </div>
         </div>
 
-        {/* ── Links Rápidos ── */}
         <div 
           className="flex gap-8 mb-12 text-11px uppercase tracking-[0.25em] text-brand-dark/60 font-semibold text-[15px] lg:text-[18px]"
           style={{ fontFamily: "'Quicksand', sans-serif" }}
@@ -99,7 +95,6 @@ const Footer: React.FC = () => {
           <a href="#contato" className="hover:text-brand-primary transition-colors">Contato</a>
         </div>
 
-        {/* ── Informações Legais ── */}
         <div 
           className="text-center space-y-3"
           style={{ fontFamily: "'Quicksand', sans-serif" }}
