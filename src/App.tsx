@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import imgPost1 from './assets/id1.png';
 import imgPost2 from './assets/id2.png';
 import imgPost3 from './assets/id3.png';
+import FloatingWhatsapp from './components/FloatingWhatsapp';
 
 const instagramPosts = [
   {
@@ -130,6 +131,7 @@ const App: React.FC = () => {
         <FAQ />
         <Contato />
         <Footer />
+        <FloatingWhatsapp />
       </main>
     </div>
   );
